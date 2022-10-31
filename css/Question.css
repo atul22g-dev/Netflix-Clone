@@ -1,0 +1,218 @@
+/* Container */
+@media (max-width: 550px) {
+  .Advertising .Qus {
+    padding: 70px 0;
+  }
+}
+/* Info */
+.Advertising > section .info {
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+/* h1 */
+.Advertising > section .info h1 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  margin: 0 0 1em;
+}
+@media only screen and (min-width: 550px) and (max-width: 949px) {
+  .Advertising > section .info h1 {
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 549px),
+  only screen and (min-width: 350px) and (max-width: 399px),
+  only screen and (max-width: 349px) {
+  .Advertising > section .info h1 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 550px),
+  only screen and (min-width: 350px) and (max-width: 399px),
+  only screen and (max-width: 349px) {
+  .Advertising > section .info h1 {
+    font-size: 1.625rem;
+  }
+}
+/* ul */
+.Advertising > section .info ul {
+  max-width: 815px;
+  margin: 1px auto;
+  font-size: 1.625rem;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+/* @media only screen and (min-width: 950px) and (max-width: 1449px),
+  only screen and (min-width: 1450px) {
+  .Advertising > section .info ul {
+    width: 75%;
+    margin: 2em auto;
+  }
+} */
+
+/* li */
+.Advertising > section .info ul li p {
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  margin-bottom: 2px;
+  font-weight: 400;
+  position: relative;
+  width: 100%;
+  border: 0;
+  display: block;
+  text-align: left;
+  background: #303030;
+  -webkit-appearance: button;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 550px) {
+  .Advertising > section .info ul {
+    width: 100%;
+  }
+  .Advertising > section .info ul li p {
+    font-size: 1.25rem;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .Advertising > section .info ul {
+    width: 100%;
+  }
+  .Advertising > section .info ul li {
+    font-size: 1.125rem;
+  }
+}
+
+/* icon */
+.Advertising > section .info ul li p .icon {
+  width: 30px;
+  height: 30px;
+  float: right;
+  margin-right: 8%;
+  transition: all 0.7s ease-in-out;
+}
+@media only screen and (max-width: 350px) {
+  .Advertising > section .info ul li p .icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* show and hide */
+.show {
+  padding: 1em;
+  padding-right: 5px;
+  margin-top: 1px;
+  margin-bottom: 8px;
+  font-weight: 400;
+  position: relative;
+  width: 100%;
+  border: 0;
+  text-align: left;
+  background: #303030;
+  -webkit-appearance: button;
+  cursor: pointer;
+  display: inline-block;
+  text-align: left;
+  box-sizing: border-box;
+}
+.hide {
+  display: none;
+}
+.Advertising > section .info ul li ul li {
+  display: inline-block;
+  text-align: left;
+  list-style-type: none;
+  /* font-size: 1.625rem; */
+  font-weight: 400;
+}
+@media only screen and (max-width: 550px) {
+  .Advertising > section .info ul li ul li {
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .Advertising > section .info ul li ul li {
+    font-size: 1.11rem;
+  }
+}
+
+/* h3 */
+.Advertising > section .info h3 {
+  padding: 0 5%;
+  max-width: 480px;
+  margin: 0 auto;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 1.2em;
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1449px),
+  only screen and (min-width: 1450px) {
+  .Advertising > section .info h3 {
+    max-width: none;
+    padding-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 549px),
+  only screen and (min-width: 550px) and (max-width: 949px) {
+  .Advertising > section .info h3 {
+    padding: 0 10%;
+  }
+}
+/* email */
+.Advertising > section .info .email_con {
+  max-width: 600px;
+  height: fit-content;
+  display: flex;
+  margin: 25px auto;
+}
+.Advertising > section .info .email_con #email {
+  display: block;
+  width: 70%;
+  height: 48px;
+  padding: 0 15px;
+  margin: 0 auto;
+  font-size: 0.7em;
+  font-weight: 500;
+}
+
+.Advertising > section .info .email_con .btn {
+  display: block;
+  width: 30%;
+  height: 52px;
+  font-size: 0.9em;
+  padding: 0 10px;
+  margin: 0 auto;
+  background-color: rgb(236, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.Advertising > section .info .email_con .btn:hover {
+  background-color: red;
+}
+@media (max-width: 545px) {
+  .Advertising > section .info .email_con {
+    flex-direction: column;
+  }
+  .Advertising > section .info .email_con #email {
+    height: 40px;
+  }
+  .Advertising > section .info .email_con .btn {
+    width: fit-content;
+    height: 40px;
+    margin: 15px auto;
+    font-size: 0.7em;
+  }
+}

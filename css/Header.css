@@ -1,0 +1,116 @@
+/* header */
+header {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  border-bottom: 8px solid #222;
+}
+/* nav */
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.5s;
+  position: relative;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-top: 0px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 5rem;
+}
+
+/* logo */
+header nav .logo {
+  width: 10.4375rem;
+  height: 2.8125rem;
+  padding-top: 0;
+  overflow: hidden;
+  fill: #e50914;
+  line-height: normal;
+}
+@media (max-width: 700px) {
+  header nav .logo {
+    width: 30vw;
+  }
+}
+/* right com */
+header nav .right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 10px;
+  width: 50vw;
+  height: 100%;
+}
+/* btn1 */
+header nav .right .btn1 {
+  width: fit-content;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  header nav .right .btn1 {
+    width: 80px;
+    height: 20px;
+  }
+}
+header nav .right .btn1 .language_icon {
+  width: 18px;
+  height: 18px;
+  margin: 0 2px;
+}
+header nav .right .btn1 .language_text {
+  background-color: transparent;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+header nav .right .btn1 option {
+  background-color: silver;
+}
+/* btn2 */
+header nav .right .btn2 {
+  width: 70px;
+  height: 35px;
+  background-color: rgb(236, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+  margin-left: 10px;
+  padding: 0 20px;
+  cursor: pointer;
+  border: none;
+  margin-right: 20px;
+}
+header nav .right .btn2:hover {
+  background-color: red;
+}
+@media (max-width: 700px) {
+  header nav .right .btn2 {
+    height: 30px;
+  }
+}

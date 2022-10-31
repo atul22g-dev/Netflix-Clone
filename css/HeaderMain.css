@@ -1,0 +1,101 @@
+/* main */
+header main {
+    display: block;
+    width: 90%;
+    height: 100%;
+    padding: 110px 0;
+    max-width: 950px;
+    margin: 25px auto;
+    margin-bottom: 0;
+    text-align: center;
+    z-index: 1;
+    font-size: 1.625rem;
+    font-weight: 400;
+    color: #fff;
+  }
+  @media (max-width: 549px) {
+    header main {
+      padding: 25px 0;
+    }
+  }
+  /* first */
+  header main h1 {
+    font-size: 3.125rem;
+    max-width: 640px;
+    margin: 0 auto;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+  }
+  @media (max-width: 549px) {
+    header main h1 {
+      font-size: 1.75rem;
+      max-width: 350px;
+    }
+  }
+  /* Second */
+  header main h2 {
+    font-size: 1.6rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    font-weight: 500;
+  }
+  @media (max-width: 549px) {
+    header main h2 {
+      font-size: 1rem;
+    }
+  }
+  /* third */
+  header main h3 {
+    max-width: none;
+    padding-bottom: 20px;
+    font-size: 1.15rem;
+    padding: 0 5%;
+    margin: 0 auto;
+    font-weight: 500;
+  }
+  main .email_con {
+    max-width: 640px;
+    height: fit-content;
+    display: flex;
+    margin: 25px auto;
+  }
+  main .email_con #email {
+    display: block;
+    width: 70%;
+    height: 48px;
+    padding: 0 15px;
+    margin: 0 auto;
+    font-size: 0.7em;
+    font-weight: 500;
+  }
+  main .email_con .btn {
+    display: block;
+    width: 30%;
+    height: 52px;
+    font-size: 0.9em;
+    padding: 0 10px;
+    margin: 0 auto;
+    background-color: rgb(236, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  main .email_con .btn:hover {
+    background-color: red;
+  }
+  @media (max-width: 573px) {
+    main .email_con {
+      flex-wrap: wrap;
+    }
+    main .email_con #email {
+      height: 40px;
+    }
+    main .email_con .btn {
+      width: fit-content;
+      height: 40px;
+      margin: 15px auto;
+      font-size: 0.7em;
+    }
+  }
+  
