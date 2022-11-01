@@ -9,7 +9,7 @@ let img = document.getElementsByClassName("icon")[0];
 let img2 = document.getElementsByClassName("icon")[1];
 let img3 = document.getElementsByClassName("icon")[2];
 let img4 = document.getElementsByClassName("icon")[3];
-let img5= document.getElementsByClassName("icon")[4];
+let img5 = document.getElementsByClassName("icon")[4];
 let img6 = document.getElementsByClassName("icon")[5];
 // 1
 
@@ -18,8 +18,7 @@ function plus1() {
     cross1.classList.remove("hide");
     cross1.classList.add("show");
     img.style.transform = "rotate(45deg)";
-  }
-  else {
+  } else {
     cross1.classList.remove("show");
     cross1.classList.add("hide");
     cross1.classList.add("hide");
@@ -34,8 +33,7 @@ function plus2() {
     cross2.classList.remove("hide");
     cross2.classList.add("show");
     img2.style.transform = "rotate(45deg)";
-  }
-  else {
+  } else {
     cross2.classList.remove("show");
     cross2.classList.add("hide");
     img2.style.transform = "";
@@ -49,8 +47,7 @@ function plus3() {
     cross3.classList.remove("hide");
     cross3.classList.add("show");
     img3.style.transform = "rotate(45deg)";
-  }
-  else {
+  } else {
     cross3.classList.remove("show");
     cross3.classList.add("hide");
     img3.style.transform = "";
@@ -64,8 +61,7 @@ function plus4() {
     cross4.classList.remove("hide");
     cross4.classList.add("show");
     img4.style.transform = "rotate(45deg)";
-  }
-  else {
+  } else {
     cross4.classList.remove("show");
     cross4.classList.add("hide");
     img4.style.transform = "";
@@ -79,8 +75,7 @@ function plus5() {
     cross5.classList.remove("hide");
     cross5.classList.add("show");
     img5.style.transform = "rotate(45deg)";
-  }
-  else {
+  } else {
     cross5.classList.remove("show");
     cross5.classList.add("hide");
     img5.style.transform = "";
@@ -94,8 +89,7 @@ function plus6() {
     cross6.classList.remove("hide");
     cross6.classList.add("show");
     img6.style.transform = "rotate(45deg)";
-  }
-  else {
+  } else {
     cross6.classList.remove("show");
     cross6.classList.add("hide");
     img6.style.transform = "";

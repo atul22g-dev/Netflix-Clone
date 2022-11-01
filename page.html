@@ -7,21 +7,25 @@
      <title>Netflix India - WATCH ANYWHERE. </title>
      <link href="css/style2.css" rel="stylesheet" type="text/css" />
      <script defer src="js/script2.js"></script>
+     <link rel="stylesheet" href="css/Header.css">
+     <link rel="stylesheet" href="css/HeaderMain.css">
      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-     <header class="showcase">
-          <nav class="showcase-top">
+     <header>
+          <nav>
                <img src="images/logo.png" alt="logo" class="logo" />
-               <!-- <a href="#" class="btn btn-rounded">Sign In</a> -->
-               <input type="button" value="Sign in" class="btn2" />
+               <span class="right">
+                    <input type="button" value="Sign in" class="btn2" />
+               </span>
           </nav>
-          <div class="showcase-content">
+          <!-- <HeaderMain /> -->
+          <main>
                <h1>See what's next</h1>
-               <p>Watch anywhere. Cancel Anytime</p>
-               <a href="#" class="btn btn-xl">Watch Free For 30 Days <i class="fas fa-chevron-right btn-icon"></i></a>
-          </div>
+               <h2>Watch anywhere. Cancel Anytime</h2>
+               <h3>Watch Free For 30 Days</h3>
+          </main>
      </header>
      <section class="tabs">
           <div class="container">
@@ -33,10 +37,10 @@
                     <i class="fas fa-tablet-alt fa-3x"></i>
                     <p class="hde-sm">Watch anywhere</p>
                </div>
-               <!-- <div id="tab-3" class="tab-item">
+               <div id="tab-3" class="tab-item">
                     <i class="fas fa-tags fa-3x"></i>
                     <p class="hid-sm">Pick your price</p>
-               </div> -->
+               </div>
           </div>
      </section>
      <section class="tab-content">
@@ -95,7 +99,7 @@
                     </div>
                </div>
                <!-- Tab Content 3 -->
-               <div id="tab-3-content"  class="tab-content-item">
+               <div id="tab-3-content" class="tab-content-item">
                     <div class="text-center">
                          <p class="text-lg">
                               Choose one plan and watch everything on Netflix.
@@ -165,34 +169,116 @@
                </div>
           </div>
      </section>
-     <footer class="footer">
-          <p>Questions? Call 1-866-579-7172</p>
-          <div class="footer-cols">
-               <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Investor Relations</a></li>
-                    <li><a href="#">Ways To Watch</a></li>
-                    <li><a href="#">Corporate Information</a></li>
-                    <li><a href="#">Netflix Originals</a></li>
+     <hr class="border">
+     <footer>
+          <div class="container">
+               <p class="footer-top">
+                    Questions? Call
+                    <a href="tel:000-800-040-1843 ">000-800-040-1843</a>
+               </p>
+               <ul class="footer-links-structural">
+                    <li class="footer-link-item" placeholder="footer_responsive_link_faq_item">
+                         <a class="footer-link" data-uia="footer-link" href="/"
+                              placeholder="footer_responsive_link_faq">
+                              <span data-uia="data-uia-footer-label">FAQ</span>
+                         </a>
+                    </li>
+                    <li class="footer-link-item" placeholder="footer_responsive_link_help_item">
+                         <a class="footer-link" data-uia="footer-link" href="/"
+                              placeholder="footer_responsive_link_help">
+                              <span data-uia="data-uia-footer-label">Help Centre</span>
+                         </a>
+                    </li>
+                    <li class="footer-link-item" placeholder="footer_responsive_link_account_item">
+                         <a class="footer-link" data-uia="footer-link" href="/"
+                              placeholder="footer_responsive_link_account">
+                              <span data-uia="data-uia-footer-label">Account</span>
+                         </a>
+                    </li>
+                    <li class="footer-link-item" placeholder="footer_responsive_link_media_center_item">
+                         <a class="footer-link" data-uia="footer-link" href="/"
+                              placeholder="footer_responsive_link_media_center">
+                              <span data-uia="data-uia-footer-label">Media Centre</span>
+                         </a>
+                    </li>
+                    <li class="footer-link-item" placeholder="footer_responsive_link_relations_item">
+                         <a class="footer-link" data-uia="footer-link" href="/"
+                              placeholder="footer_responsive_link_relations">
+                              <span data-uia="data-uia-footer-label">Investor Relations</span>
+                         </a>
+                    </li>
+                    <li class="footer-link-item" placeholder="footer_responsive_link_jobs_item">
+                         <a class="footer-link" data-uia="footer-link" href="/"
+                              placeholder="footer_responsive_link_jobs">
+                              <span data-uia="data-uia-footer-label">Jobs</span>
+                         </a>
+                    </li>
+                    <li class="footer-link-item" placeholder="footer_responsive_link_waysToWatch_item">
+                         <a class="footer-link" data-uia="footer-link" href="/"
+                              placeholder="footer_responsive_link_waysToWatch">
+                              <span data-uia="data-uia-footer-label">Ways to Watch</span>
+                         </a>
+                    </li>
+                    <li class="footer-link-item" placeholder="footer_responsive_link_terms_item">
+                         <a class="footer-link" data-uia="footer-link" href="/"
+                              placeholder="footer_responsive_link_terms">
+                              <span data-uia="data-uia-footer-label">Terms of Use</span>
+                         </a>
+                    </li>
+                    <li class="footer-link-item" placeholder="footer_responsive_link_privacy_separate_link_item">
+                         <a class="footer-link" data-uia="footer-link" href="/"
+                              placeholder="footer_responsive_link_privacy_separate_link">
+                              <span data-uia="data-uia-footer-label">Privacy</span>
+                         </a>
+                    </li>
+                    <li class="footer-link-item" placeholder="footer_responsive_link_cookies_separate_link_item">
+                         <a class="footer-link" data-uia="footer-link" href="/"
+                              placeholder="footer_responsive_link_cookies_separate_link">
+                              <span data-uia="data-uia-footer-label">Cookie Preferences</span>
+                         </a>
+                    </li>
+                    <li class="footer-link-item" placeholder="footer_responsive_link_corporate_information_item">
+                         <a class="footer-link" data-uia="footer-link" href="/"
+                              placeholder="footer_responsive_link_corporate_information">
+                              <span data-uia="data-uia-footer-label">
+                                   Corporate Information
+                              </span>
+                         </a>
+                    </li>
+                    <li class="footer-link-item" placeholder="footer_responsive_link_contact_us_item">
+                         <a class="footer-link" data-uia="footer-link" href="/"
+                              placeholder="footer_responsive_link_contact_us">
+                              <span data-uia="data-uia-footer-label">Contact Us</span>
+                         </a>
+                    </li>
+                    <li class="footer-link-item" placeholder="footer_responsive_link_speed_test_item">
+                         <a class="footer-link" data-uia="footer-link" href="/"
+                              placeholder="footer_responsive_link_speed_test">
+                              <span data-uia="data-uia-footer-label">Speed Test</span>
+                         </a>
+                    </li>
+                    <li class="footer-link-item" placeholder="footer_responsive_link_legal_notices_item">
+                         <a class="footer-link" data-uia="footer-link" href="/"
+                              placeholder="footer_responsive_link_legal_notices">
+                              <span data-uia="data-uia-footer-label">Legal Notices</span>
+                         </a>
+                    </li>
+                    <li class="footer-link-item originals-link"
+                         placeholder="footer_responsive_link_only_on_netflix_item">
+                         <a class="footer-link" data-uia="footer-link" href="/"
+                              placeholder="footer_responsive_link_only_on_netflix">
+                              <span data-uia="data-uia-footer-label">Only on Netflix</span>
+                         </a>
+                    </li>
                </ul>
-               <ul>
-                    <li><a href="#">Help Center</a></li>
-                    <li><a href="#">Jobs</a></li>
-                    <li><a href="#">Terms Of Use</a></li>
-                    <li><a href="#">Contact Us</a></li>
-               </ul>
-               <ul>
-                    <li><a href="#">Account</a></li>
-                    <li><a href="#">Redeem Gift Cards</a></li>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Speed Test</a></li>
-               </ul>
-               <ul>
-                    <li><a href="#">Media Center</a></li>
-                    <li><a href="#">Buy Gift Cards</a></li>
-                    <li><a href="#">Cookie Preferences</a></li>
-                    <li><a href="#">Legal Notices</a></li>
-               </ul>
+               <span class="btn1">
+                    <img src="images/lang2.svg" alt="language" class="language_icon" />
+                    <select name="language" class="language_text">
+                         <option value="English">English</option>
+                         <option value="हिन्दी">हिन्दी</option>
+                    </select>
+               </span>
+               <p class="last">Netflix India</p>
           </div>
      </footer>
 </body>

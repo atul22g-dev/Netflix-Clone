@@ -11,13 +11,7 @@ footer {
   color: #fff;
   padding: 30px 20px;
 }
-@media only screen and (min-width: 550px) and (max-width: 949px),
-  only screen and (min-width: 950px) and (max-width: 1449px),
-  only screen and (min-width: 1450px) {
-  footer {
-    padding: 70px 45px;
-  }
-}
+
 /* Container */
 footer .container {
   display: block;
@@ -45,25 +39,19 @@ footer .container .footer-top a {
 }
 /* ul */
 ul.footer-links-structural {
-  display: block;
-  list-style-type: none;
-  font-size: smaller;
-  width: 80vw;
+  box-sizing: border-box;
+  font-size: 13px;
+  max-width: 1000px;
   /* border: 2px solid blue; */
 }
 .footer-link-item {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 0;
-  margin-right: 30px;
-  margin-bottom: 16px;
   display: inline-block;
+  margin-bottom: 16px;
   min-width: 100px;
-  width: 20%;
-  /* border: 2px solid red; */
-  padding: 0 20px;
+  padding: 0 12px 0 0;
   vertical-align: top;
+  width: 24%;
 }
 .footer-links {
   max-width: 1000px;
@@ -77,21 +65,7 @@ ul.structural > li {
   list-style: none;
   margin-left: 0;
 }
-@media only screen and (min-width: 740px) and (max-width: 1075px) {
-  .footer-link-item {
-    width: 25%;
-  }
-}
-@media only screen and (min-width: 501px) and (max-width: 740px) {
-  .footer-link-item {
-    width: 33%;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .footer-link-item {
-    width: 50%;
-  }
-}
+
 .footer-links {
   max-width: 1000px;
   font-size: 13px;
@@ -153,9 +127,21 @@ footer .container .btn1 .language_text {
   color: #757575;
   cursor: pointer;
 }
-footer .container p{
+footer .container p {
   font-size: 13px;
   margin-top: 24px;
   font-size: 1em;
   color: #757575;
+}
+
+@media only screen and (max-width: 740px) {
+  .footer-link-item {
+    width: 32%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-link-item {
+    width: 49%;
+  }
 }
