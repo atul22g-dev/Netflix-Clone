@@ -68,13 +68,19 @@ header main {
     font-size: 0.7em;
     font-weight: 500;
   }
-  main .email_con .btn {
+
+  .email_con a{
+    text-decoration: none;
+  }
+
+  main .email_con a .btn {
     display: block;
-    width: 30%;
+    width: 91%;
     height: 52px;
     font-size: 0.9em;
     padding: 0 10px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    color: #fff;
     background-color: rgb(236, 0, 0);
     display: flex;
     align-items: center;
@@ -84,18 +90,22 @@ header main {
   main .email_con .btn:hover {
     background-color: red;
   }
-  @media (max-width: 573px) {
-    main .email_con {
+  @media (max-width: 635px) {
+    .email_con {
       flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
     }
-    main .email_con #email {
+    .email_con #email {
       height: 40px;
     }
-    main .email_con .btn {
+     .email_con .btn {
       width: fit-content;
       height: 40px;
       margin: 15px auto;
       font-size: 0.7em;
     }
   }
+
+  /* 635 */
   
