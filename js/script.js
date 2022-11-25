@@ -13,7 +13,25 @@ let img5 = document.getElementsByClassName("icon")[4];
 let img6 = document.getElementsByClassName("icon")[5];
 // 1
 
-function plus1() {
+const plus1 = () => {
+   // Other Program
+  if(cross2.classList == "show"){
+    plus2()
+  }
+  if(cross3.classList == "show"){
+    plus3()
+  }
+  if(cross4.classList == "show"){
+    plus4()
+  }
+  if(cross5.classList == "show"){
+    plus5()
+  }
+  if(cross6.classList == "show"){
+    plus6()
+  }
+
+  // Main Program
   if (cross1.classList == "hide") {
     cross1.classList.remove("hide");
     cross1.classList.add("show");
@@ -28,7 +46,25 @@ function plus1() {
 
 // 2
 
-function plus2() {
+const plus2 = () => {
+   // Other Program
+   if(cross1.classList == "show"){
+    plus1()
+  }
+  if(cross3.classList == "show"){
+    plus3()
+  }
+  if(cross4.classList == "show"){
+    plus4()
+  }
+  if(cross5.classList == "show"){
+    plus5()
+  }
+  if(cross6.classList == "show"){
+    plus6()
+  }
+
+  // Main Program
   if (cross2.classList == "hide") {
     cross2.classList.remove("hide");
     cross2.classList.add("show");
@@ -43,6 +79,24 @@ function plus2() {
 // 3
 
 function plus3() {
+     // Other Program
+     if(cross2.classList == "show"){
+      plus2()
+    }
+    if(cross1.classList == "show"){
+      plus1()
+    }
+    if(cross4.classList == "show"){
+      plus4()
+    }
+    if(cross5.classList == "show"){
+      plus5()
+    }
+    if(cross6.classList == "show"){
+      plus6()
+    }
+  
+    // Main Program
   if (cross3.classList == "hide") {
     cross3.classList.remove("hide");
     cross3.classList.add("show");
@@ -57,6 +111,24 @@ function plus3() {
 // 4
 
 function plus4() {
+     // Other Program
+     if(cross2.classList == "show"){
+      plus2()
+    }
+    if(cross3.classList == "show"){
+      plus3()
+    }
+    if(cross1.classList == "show"){
+      plus1()
+    }
+    if(cross5.classList == "show"){
+      plus5()
+    }
+    if(cross6.classList == "show"){
+      plus6()
+    }
+  
+    // Main Program
   if (cross4.classList == "hide") {
     cross4.classList.remove("hide");
     cross4.classList.add("show");
@@ -71,6 +143,24 @@ function plus4() {
 // 5
 
 function plus5() {
+     // Other Program
+     if(cross2.classList == "show"){
+      plus2()
+    }
+    if(cross3.classList == "show"){
+      plus3()
+    }
+    if(cross4.classList == "show"){
+      plus4()
+    }
+    if(cross1.classList == "show"){
+      plus1()
+    }
+    if(cross6.classList == "show"){
+      plus6()
+    }
+  
+    // Main Program
   if (cross5.classList == "hide") {
     cross5.classList.remove("hide");
     cross5.classList.add("show");
@@ -85,6 +175,24 @@ function plus5() {
 // 6
 
 function plus6() {
+     // Other Program
+     if(cross2.classList == "show"){
+      plus2()
+    }
+    if(cross3.classList == "show"){
+      plus3()
+    }
+    if(cross4.classList == "show"){
+      plus4()
+    }
+    if(cross5.classList == "show"){
+      plus5()
+    }
+    if(cross1.classList == "show"){
+      plus1()
+    }
+  
+    // Main Program
   if (cross6.classList == "hide") {
     cross6.classList.remove("hide");
     cross6.classList.add("show");
