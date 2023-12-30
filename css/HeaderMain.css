@@ -76,6 +76,7 @@ header main {
   main .email_con a .btn {
     display: block;
     width: 91%;
+    font-weight: bolder;
     height: 52px;
     font-size: 0.9em;
     padding: 0 10px;

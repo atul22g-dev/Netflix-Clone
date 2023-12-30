@@ -43,6 +43,7 @@
     font-size: 1.625rem;
   }
 }
+
 /* ul */
 .Qus .info ul {
   max-width: 815px;
@@ -219,5 +220,11 @@
     height: 40px;
     margin: 15px auto;
     font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .Qus .info .QusContainer {
+    max-width: 95%;
   }
 }

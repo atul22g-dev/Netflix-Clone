@@ -1,6 +1,6 @@
-.Advertising .first .advertise .img1 {
+/* .Advertising .first .advertise .img1 {
   max-width: 45%;
-}
+} */
 .Advertising .first .advertise .text {
   width: 55%;
   padding: 0 3rem 0 0;
@@ -58,4 +58,35 @@
   .Advertising .first .advertise .text h2 {
     font-size: 1.125rem;
   }
+}
+
+/* Video */
+
+
+.Advertising .advertise .image-container {
+  position: relative;
+}
+
+.Advertising .advertise .image-container img{
+  position: relative;
+  z-index: 1;
+}
+.Advertising .advertise .image-container .video-container{
+  position: absolute;
+  overflow: hidden;
+}
+
+/* video 1 */
+
+.Advertising .first .advertise .image-container .video-container{
+  max-width: 73%;
+  max-height: 54%;
+  top: 20%;
+  left: 13.3%;
+}
+.Advertising .third .advertise .image-container .video-container{
+  max-width: 63%;
+  max-height: 47%;
+  top: 11.5%;
+  left: 17%;
 }
